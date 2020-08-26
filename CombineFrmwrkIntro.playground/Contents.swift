@@ -6,6 +6,8 @@ import Foundation
 // Combine declares publishers to expose values that can change over time And subscribers to recieve those values from the publishers
 
 
+// Combine is a functionally reactive programming framework. Its used to react to constantly changing environment in the app through functional programming paradigms.
+// In this we can use streams of events, values and apply operators like map, flatmap from func. prog. Its pretty similar to Rx Swift framework.
 
 
 
