@@ -22,7 +22,8 @@
 - In this we can use streams of events, values and apply operators like map, flatmap from func. prog. Its pretty similar to Rx Swift framework.
 - This includes getting a value of network call or a button press then adding values through (example) pipeline of operators like mapping etc, then creating something usable(like new publishers) in other place.
 - Its first party unlike RxSwift, better sementically and naming.
-- It has operators like map, flatMap, compactMap, replaceError, catch, removeDuplicates, debounce and many more      
+- It has operators like map, flatMap, compactMap, replaceError, catch, removeDuplicates, debounce and many more.
+
 
 
 
