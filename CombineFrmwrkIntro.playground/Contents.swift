@@ -6,12 +6,6 @@ import Foundation
 // Combine declares publishers to expose values that can change over time And subscribers to recieve those values from the publishers
 
 
-// Combine is a functionally reactive programming framework. Its used to react to constantly changing environment in the app through functional programming paradigms.
-// In this we can use streams of events, values and apply operators like map, flatmap from func. prog. Its pretty similar to Rx Swift framework.
-// This includes getting a value of network call or a button press then adding values through (example) pipeline of operators like mapping etc, then creating something usable(like new publishers) in other place.
-
-
-
 // The publisher protocol declares a type that can deliver a sequence of values over time
 // Publishers have operators to act on the values recieved from upstream publishers and republish them
 // At the end of th chain of publishers, a subscriber acts on elements as it recieves them. Publishers only emit values when explicitly requested to do so by subs. This puts subs code in control of how fast it recieves events from the publishers its connected to.
@@ -72,6 +66,5 @@ weatherPublisher.send(28)
 weatherPublisher.send(30)
 // weatherPublisher.send(completion: Subscribers.Completion<WeatherError>.failure(.Uncertainity))
 weatherPublisher.send(18)
-
 
 
